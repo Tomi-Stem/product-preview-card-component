@@ -1,0 +1,109 @@
+/* 
+body{background-image: url("image.jpg"); 
+    background-repeat: repeat; 
+    background-size: 0px; 
+    text-align:;
+    width: 1440px;
+    margin: 10%;}
+*/
+    body{background-color: hsl(30, 38%, 92%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;}
+
+    
+
+.container{display: inline-flex; width: 570px;
+height: 420px;
+margin: 180px; margin-left: 360px;}
+
+.product_image_div{ 
+min-width: 50%; 
+flex: 50%;
+border-top-left-radius: 3%;
+border-bottom-left-radius: 3%;
+height: 420px;
+    background-image: url("images/image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;} 
+
+.perfume{color: grey; letter-spacing: 0.4em;
+
+font-family: 'montserrat', sans-serif;
+font-size: 11px;
+font-weight: 700px;
+font-weight: bold;
+margin-top: 8px;}
+
+.preview_div{max-width: 50%;
+    flex: 50%; padding: 20px 35px 0px 30px; 
+    height: 420px;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    background-color: white;
+    }
+    
+.perfume_name{font-family: 'Fraunces', serif; 
+font-weight: 700;
+font-weight: bolder;
+font-size: 33px;
+margin-top: 11px;
+line-height: 30px;
+}
+
+.preview_paragraph{color:hsl(228, 12%, 48%);
+    font-size: 13px;
+    font-weight: 700px;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 210px;
+    font-family: 'montserrat', sans-serif;}
+
+.price_div{display: inline-flex; width: 130px;
+border: 1px;
+}
+
+.span1{font-family: 'Fraunces', serif;
+    font-size: 35px; font-weight: bolder;
+    color:hsl(158, 60%, 29%);}
+
+.span2{ 
+    color:hsl(228, 12%, 48%); padding-top: 16px;
+    margin-left: 15px;
+    font-size: 12px;}
+    
+    
+.button{border-radius: 5px; border: none;
+background-color: hsl(158, 60%, 29%) ;
+color: white; font-family: 'montserrat', sans-serif;
+padding: 13px 15px 13px 15px; font-weight: bolder;
+min-width: 100%;
+}
+
+
+.button_div{width: 100%;
+padding-top: 25px;}
+
+.button:hover{background-color: hsl(158, 66%, 14%);}
+
+
+
+/*MOBILE DESIGN FOR MAX-WIDTH: 380PX*/
+@media screen and (max-width: 380px) {
+
+    .container{ width: 380px; height: 630px;
+        flex: none; display: block;
+    }
+    .product_image_div{flex: none; width: 100%;
+    border-top-right-radius: 3%; height: 200px;
+position: inherit; border-bottom-left-radius: 0%;} 
+
+    .preview_div{max-width: 100%;
+;display: block;
+}
+
+.preview_paragraph{width: 100%;
+padding-right: 9%;}
+   
+}
